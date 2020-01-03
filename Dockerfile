@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install node git
+RUN apt-get update && apt-get install nodejs git
