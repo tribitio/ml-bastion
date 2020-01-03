@@ -1,4 +1,3 @@
-FROM alpine:latest
+FROM ubuntu:latest
 
-RUN apk update && apk add nodejs npm git
-RUN npm install -g yarn
+RUN apt-get update && apt-get install node git
